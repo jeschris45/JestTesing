@@ -8,7 +8,6 @@ import { IndependentService } from './independent.service';
 describe('IndependentService', () => {
   let httpTestingController: HttpTestingController;
   let independentService: IndependentService;
-  const serverUrl: string = '/rest/fulcrum/v1/nodeMailer/sendCustomerUserGuide';
   const ngUnsubscribe: Subject<any> = new Subject();
 
   beforeEach(() => {

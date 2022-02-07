@@ -8,7 +8,6 @@ import { FooService } from './foo.service';
 describe('FooService', () => {
   let httpTestingController: HttpTestingController;
   let fooService: FooService;
-  const serverUrl: string = '/rest/fulcrum/v1/nodeMailer/sendCustomerUserGuide';
   const ngUnsubscribe: Subject<any> = new Subject();
 
   beforeEach(() => {
