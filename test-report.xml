@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="/Users/jeswin/Documents/SampleProject/JestTesting/src/app/services/foo.service.jest.spec.ts">
+    <testCase name="FooService dummyTest" duration="11">
+      <failure message="Error: This constructor is not compatible with Angular Dependency Injection because its dependency at index 0 of the parameter list is invalid."><![CDATA[Error: This constructor is not compatible with Angular Dependency Injection because its dependency at index 0 of the parameter list is invalid.
+This can happen if the dependency type is a primitive like a string or if an ancestor of this class is missing an Angular decorator.
+
+Please check that 1) the type for the parameter at index 0 is correct and 2) the correct Angular decorators are defined for this class and its ancestors.
+    at ɵɵinvalidFactoryDep (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/@angular/core/fesm2015/core.mjs:4790:11)
+    at Object.FooService_Factory [as factory] (ng:///FooService/ɵfac.js:5:38)
+    at R3Injector.hydrate (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/@angular/core/fesm2015/core.mjs:11457:35)
+    at R3Injector.get (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/@angular/core/fesm2015/core.mjs:11276:33)
+    at NgModuleRef.get (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/@angular/core/fesm2015/core.mjs:21828:33)
+    at TestBedRender3.inject (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/@angular/core/fesm2015/testing.mjs:1718:52)
+    at Function.inject (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/@angular/core/fesm2015/testing.mjs:1609:37)
+    at /Users/jeswin/Documents/SampleProject/JestTesting/src/app/services/foo.service.jest.spec.ts:21:26
+    at l.invoke (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/zone.js/fesm2015/zone-testing-bundle.min.js:13:6412)
+    at ProxyZoneSpec.onInvoke (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/zone.js/fesm2015/zone-testing-bundle.min.js:109:2039)
+    at l.invoke (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/zone.js/fesm2015/zone-testing-bundle.min.js:13:6352)
+    at a.run (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/zone.js/fesm2015/zone-testing-bundle.min.js:13:1824)
+    at Object.o (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/zone.js/fesm2015/zone-testing-bundle.min.js:133:591)
+    at Promise.then.completed (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusHook (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/jest-circus/build/run.js:181:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at _runTest (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/jest-circus/build/run.js:148:5)
+    at _runTestsForDescribeBlock (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/jest-circus/build/run.js:60:9)
+    at run (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)]]></failure>
+    </testCase>
+  </file>
+  <file path="/Users/jeswin/Documents/SampleProject/JestTesting/src/app/services/dependent.service.jest.spec.ts">
+    <testCase name="DependentService dummyTest" duration="11"/>
+  </file>
+  <file path="/Users/jeswin/Documents/SampleProject/JestTesting/src/app/services/independent.service.jest.spec.ts">
+    <testCase name="IndependentService dummyTest" duration="10">
+      <failure message="Error: This constructor is not compatible with Angular Dependency Injection because its dependency at index 0 of the parameter list is invalid."><![CDATA[Error: This constructor is not compatible with Angular Dependency Injection because its dependency at index 0 of the parameter list is invalid.
+This can happen if the dependency type is a primitive like a string or if an ancestor of this class is missing an Angular decorator.
+
+Please check that 1) the type for the parameter at index 0 is correct and 2) the correct Angular decorators are defined for this class and its ancestors.
+    at ɵɵinvalidFactoryDep (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/@angular/core/fesm2015/core.mjs:4790:11)
+    at Object.IndependentService_Factory [as factory] (ng:///IndependentService/ɵfac.js:5:46)
+    at R3Injector.hydrate (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/@angular/core/fesm2015/core.mjs:11457:35)
+    at R3Injector.get (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/@angular/core/fesm2015/core.mjs:11276:33)
+    at NgModuleRef.get (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/@angular/core/fesm2015/core.mjs:21828:33)
+    at TestBedRender3.inject (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/@angular/core/fesm2015/testing.mjs:1718:52)
+    at Function.inject (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/@angular/core/fesm2015/testing.mjs:1609:37)
+    at /Users/jeswin/Documents/SampleProject/JestTesting/src/app/services/independent.service.jest.spec.ts:21:34
+    at l.invoke (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/zone.js/fesm2015/zone-testing-bundle.min.js:13:6412)
+    at ProxyZoneSpec.onInvoke (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/zone.js/fesm2015/zone-testing-bundle.min.js:109:2039)
+    at l.invoke (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/zone.js/fesm2015/zone-testing-bundle.min.js:13:6352)
+    at a.run (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/zone.js/fesm2015/zone-testing-bundle.min.js:13:1824)
+    at Object.o (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/zone.js/fesm2015/zone-testing-bundle.min.js:133:591)
+    at Promise.then.completed (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/jest-circus/build/utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/jest-circus/build/utils.js:316:10)
+    at _callCircusHook (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/jest-circus/build/run.js:181:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at _runTest (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/jest-circus/build/run.js:148:5)
+    at _runTestsForDescribeBlock (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/jest-circus/build/run.js:66:9)
+    at _runTestsForDescribeBlock (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/jest-circus/build/run.js:60:9)
+    at run (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/Users/jeswin/Documents/SampleProject/JestTesting/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:170:21)]]></failure>
+    </testCase>
+  </file>
+</testExecutions>
